@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "debbiecro84/runcalc-pro-app"
+        IMAGE_NAME = "debsc84/runcalc-pro-app"
         IMAGE_TAG = "v1.0.${BUILD_NUMBER}"
     }
 
